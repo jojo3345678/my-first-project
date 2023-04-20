@@ -13,6 +13,6 @@ public class TestSeverLet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().append("dog");
+		response.getWriter().append("dog!");
 	}
 }
